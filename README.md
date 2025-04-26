@@ -1,23 +1,58 @@
 # Marea_Venezia_SeR
-# Client-Server Applicazione con CSV, utilizzando Socket in Java
+# Client-Server Application with CSV using Java Sockets
 
-Questa applicazione permette la consultazione remota dei dati di un file CSV attraverso una architettura 'client-server' usando i Socket in Java.
+<!-- Italian Version -->
+<div align="left">
+<h2>Versione Italiana</h2>
 
-## Come compilare 
-Compila il progetto:
+Questa applicazione permette la consultazione remota dei dati sulle maree a Venezia attraverso un'architettura client-server usando i Socket in Java.
+
+## Requisiti
+- File CSV con i dati sulle maree (posizionato in `data/pp2023_orario.csv`)
+
+## Commandi (Commands)
+-GET_ROW n - Shows row n (0-based index)
+
+-GET_ALL - Shows all tide data
+
+-SEARCH term - Searches for the specified term
+
+-exit - Closes the connection
+
+## Come compilare ed eseguire
 ```bash
+# Compilazione
 javac -d bin src/server/*.java src/client/*.java src/shared/*.java
 
+# Avvio server
+java -cp bin server.CSVServer
 
-# CSV Client-Server Application
+# Avvio client (in terminale separato)
+java -cp bin client.CSVClient
+```
 
-A client-server application for remote consultation of CSV files. This code is used to read a csv file (already inside the folder) where it's written the levels of tide in Venice.
+---
+
+# Tide_Venice_SeR
+# Client-Server Application with CSV using Java Sockets
+<!-- English Version -->
+<div align="left">
+<h2>English version</h2>
+
+This application allows remote consultation of tide level data in Venice through a client-server architecture using Java Sockets.
 
 ## Requirements
-- CSV file to be consulted (placed in `data/pp2023_orario.csv`)
+- CSV file with tide data (placed in `data/pp2023_orario.csv`)
 
-## How to Run
-
-1. Compile the project:
+## How to Compile
+Compile the project:
 ```bash
 javac -d bin src/server/*.java src/client/*.java src/shared/*.java
+# Compilation
+javac -d bin src/server/*.java src/client/*.java src/shared/*.java
+
+# Start server
+java -cp bin server.CSVServer
+
+# Start client (in separate terminal)
+java -cp bin client.CSVClient
