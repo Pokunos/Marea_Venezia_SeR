@@ -2,7 +2,6 @@
 # Client-Server Application with CSV using Java Sockets
 
 <!-- Italian Version -->
-<div align="left">
 <h2>Versione Italiana</h2>
 
 Questa applicazione permette la consultazione remota dei dati sulle maree a Venezia attraverso un'architettura client-server usando i Socket in Java,
@@ -27,7 +26,6 @@ TUTTI I COMANDI SONO CASE SENSITIVE, quindi è consigliato copiare ed incollare 
 # Tide_Venice_SeR
 # Client-Server Application with CSV using Java Sockets
 <!-- English Version -->
-<div align="left">
 <h2>English version</h2>
 
 This application allows remote consultation of tide level data in Venice through a client-server architecture using Java Sockets.
