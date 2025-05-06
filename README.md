@@ -12,13 +12,13 @@ TUTTI I COMANDI SONO CASE SENSITIVE, quindi è consigliato copiare ed incollare 
 - File CSV con i dati sulle maree (posizionato in `data/pp2023_orario.csv`)
 
 ## Commandi 
--GET_ROW 'n' - Mostra la riga che si desidera 'n = (0-based index)'
+- GET_ROW 'n' - Mostra la riga che si desidera 'n = (0-based index)'
 
--GET_ALL - Mostra tutti i dati
+- GET_ALL - Mostra tutti i dati
 
--SEARCH 'termine' - Ricerca di un dato specifico (es. "01": mostrerà tutto quello che contiene '01'; "01/01": mostrerà tutte le date contenenti la data richiesta).   
+- SEARCH 'termine' - Ricerca di un dato specifico (es. "01": mostrerà tutto quello che contiene '01'; "01/01": mostrerà tutte le date contenenti la data richiesta).   
 
--exit - Chiude la connessione.
+- exit - Chiude la connessione.
 
 
 ---
@@ -37,10 +37,10 @@ It is also recommended to read the file CSV so that you know its limits and what
 - CSV file with tide data (placed in `data/pp2023_orario.csv`)
 
 ## Commands
--GET_ROW 'n' - Shows row n (0-based index)
+- GET_ROW 'n' - Shows row n (0-based index)
 
--GET_ALL - Shows all tide data
+- GET_ALL - Shows all tide data
 
--SEARCH 'term' - Searches for the specified term (example;  "01" shows every data that contains those two numbers; "01/01" shows every data with this specific date).
+- SEARCH 'term' - Searches for the specified term (example;  "01" shows every data that contains those two numbers; "01/01" shows every data with this specific date).
 
--exit - Closes the connection
+- exit - Closes the connection
