@@ -38,8 +38,9 @@ public class CSVData {
     }
 
     public String[] getRow(int rowIndex) {
-        if (rowIndex >= 0 && rowIndex < data.size()) {
-            return data.get(rowIndex);
+        int adjustedIndex = rowIndex - 1;
+        if (adjustedIndex >= 0 && adjustedIndex < data.size()) {
+            return data.get(adjustedIndex);
         }
         return null;
     }

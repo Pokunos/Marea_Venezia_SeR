@@ -30,10 +30,12 @@ public class CSVClient {
                 }
 
                 out.println(input);
+                out.flush();
+
                 String response = in.readLine();
 
                 if (response.startsWith(Protocol.OK)) {
-                    System.out.println("Response:");
+                    System.out.println("Response: " + response);
                     String[] lines = response.split(Protocol.LINE_SEPARATOR);
                 }
             }

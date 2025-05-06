@@ -58,7 +58,7 @@ public class ClientHandler implements Runnable {
             switch (command) {
                 case "GET_ROW":
                     if (parts.length < 2) {
-                        return Protocol.ERROR + "Number of row missing.";
+                        return Protocol.ERROR + "Specify the number of the row.";
                     }
                     int row = Integer.parseInt(parts[1]);
                     String[] rowData = csvData.getRow(row);
