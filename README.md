@@ -1,5 +1,5 @@
 # Marea_Venezia_SeR
-# Client-Server Application with CSV using Java Sockets
+# Client-Server Applicazione usando Java Sockets con CSV
 
 <!-- Italian Version -->
 <h2>Versione Italiana</h2>
